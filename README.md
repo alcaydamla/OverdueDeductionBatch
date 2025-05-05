@@ -16,10 +16,6 @@ Stored procedure, gecikmiş borçları ilgili müşteri bakiyesinden düşer ve 
 2. `APPLY_OVERDUE_DEDUCTIONS` prosedürü çalıştırılır.
 3. Console ekranında başarı veya hata mesajı gösterilir.
 
-## Zaman Kısıtı (Opsiyonel)
-
-Uygulamanın sadece belirli saatlerde (örn. 02:00) çalışması istenirse, `DateTime.Now.TimeOfDay` kontrolü ile zaman sınırlaması uygulanabilir.
-
 ## Çalıştırma
 
 Veritabanı bağlantısı sağlandıktan sonra aşağıdaki komutla uygulama çalıştırılabilir:
